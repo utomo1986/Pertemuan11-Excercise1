@@ -10,7 +10,7 @@ Tampilkan serapih mungkin menggunakan CSS
 
 */
 
-const getGithubProfile = async () => {
+const getGithubData = async () => {
     const api = "https://api.github.com/users/utomo1986";
 
     fetch(api)
@@ -32,7 +32,4 @@ let display = (result) => {
   console.log(result);
 }
 
-getGithubProfile();
-
-/*<img src="img_avatar.png" alt="Avatar">
-*/
+getGithubData();
